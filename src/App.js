@@ -36,7 +36,7 @@ const App = () =>{
 
                 <input type='text' placeholder='Enter Your to-do s' className='form-control' onChange={itemEvent} value={inputList}/>
 
-                <button className='btn-rounded-warning my-2' onClick={itemAdded}>+</button>
+                <button className='btn-rounded-warning my-2' onClick={itemAdded}>Add Task</button>
                 <ul className='my-2'>
                     {items.map((item,idx)=>{
                        return <ToDoList key={idx} item={item} id={idx} onSelect={deleteItem}/>

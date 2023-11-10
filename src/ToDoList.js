@@ -8,7 +8,7 @@ export default function ToDoList(props) {
      onClick={()=>{
       props.onSelect(props.id);
      }}>
-      x
+      Delete
       </button>
       {props.item}
       </li>

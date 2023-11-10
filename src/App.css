@@ -1,4 +1,8 @@
 .main-div{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
     background: linear-gradient(to left, blue,lightblue);
     height: 100vh;
     width: 100vw;
@@ -15,7 +19,11 @@
 }
 
 .btn-rounded-warning{
-    padding: 10px;
-    border-radius: 20px;
+    padding: 20px;
+    border-radius: 30px;
     background-color: rgb(255, 187, 0);
+    color:black;
+    box-shadow: 2px 2px 2px 5px rgb(210, 155, 4);
+    border: none;
+    margin-top: 20px;
 }
